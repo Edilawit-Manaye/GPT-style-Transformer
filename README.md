@@ -12,7 +12,7 @@ python train.py
 
 Checkpoints are saved every 500 steps as `gpt_shakespeare_ckpt.pt`.
 
-## What this solution covers (evaluation criteria)
+## What this solution covers
 
 - **Understanding of architecture:** Markdown in the notebook explains embeddings, causal self-attention, multi-head attention, FFN, add & norm, decoder stack, and next-token loss.
 - **Implementation quality:** Modular classes (`CausalSelfAttention`, `FeedForward`, `DecoderBlock`, `GPT`), clear naming, correct causal masking and loss.
