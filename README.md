@@ -1,13 +1,6 @@
 # GPT from Scratch — Little Shakespeare
 
-Final task: implement and train a GPT-style Transformer on the Little Shakespeare dataset.
-
-## Run on Google Colab
-
-1. **Upload the notebook:** In Colab, go to **File → Upload notebook** and choose `gpt_little_shakespeare.ipynb`.
-2. **Enable GPU:** **Runtime → Change runtime type → T4 GPU** (optional but faster).
-3. **Run all cells:** **Runtime → Run all** (or run cells top to bottom).
-
+implement and train a GPT-style Transformer on the Little Shakespeare dataset.
 The notebook is self-contained: dataset download, model, training, and sampling are in one place. No need to upload `dataset.py`, `model.py`, or `train.py` unless you prefer to run the script version.
 
 ## Run locally (optional)
